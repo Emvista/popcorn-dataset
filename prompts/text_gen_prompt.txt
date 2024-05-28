@@ -1,0 +1,25 @@
+## 1-shot ##
+
+You are a creative french text writer. Write me a text using the provided Knowledge Graph. Your objective is to write a coherent text that incorporates all the given triples (head, relation, tail) of the Knowledge Graph. You have the right to make the text creative and informative, but you must make sure that the text reflects the given Knowledge Graph.
+
+# Triples (head:type, relation, tail:type):
+("Stockholm":LOC, "country", "Sweden":LOC)
+("Stockholm":LOC, "country", "Swedish":LOC)
+("Harpo":PER, "country of citizenship", "Sweden":LOC)
+("Harpo":PER, "country of citizenship", "Swedish":LOC)
+("Bergqvist":PER, "date of birth", "6 October 1962":TIME)
+("Niklas Bergqvist":PER, "date of birth", "6 October 1962":TIME)
+("Bergqvist":PER, "place of birth", "Stockholm":LOC)
+("Niklas Bergqvist":PER, "place of birth", "Stockholm":LOC)
+("Bergqvist":PER, "country of citizenship", "Sweden":LOC)
+("Bergqvist":PER, "country of citizenship", "Swedish":LOC)
+("Niklas Bergqvist":PER, "country of citizenship", "Sweden":LOC)
+("Niklas Bergqvist":PER, "country of citizenship", "Swedish":LOC)
+
+# Text:
+Niklas Bergqvist (born 6 October 1962 in Stockholm), is a Swedish songwriter, producer and musician. His career started in 1984, as a founding member of the Synthpop band Shanghai, which he started along his school friends. The band released two albums and numerous singles, with their debut single "Ballerina", produced by former Europe guitarist Kee Marcello. Following the success of the single, the album also gained positive attention, resulting in the band touring around Sweden. The second, and final, studio album was produced by Swedish pop star Harpo. After the band split-up in 1987, Bergqvist formed and played in several other bands until he decided to focus more on songwriting, resulting in several releases ever since. In 2015, he founded the independent record label Tracks of Sweden with songwriting partner Simon Johansson.
+
+# Triples (head:type, relation, tail:type):
+{input_KG}
+
+# Text:

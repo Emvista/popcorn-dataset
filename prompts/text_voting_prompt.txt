@@ -1,0 +1,23 @@
+Evaluate the creativity, coherence, and overall representation of the provided Knowlegde Graph to identify the text that most effectively encapsulates the Knowlegde Graph. Analyze each text in detail, then conclude in the last line of the ranking of every text in this format "== Ranking: Text i > Text i+1 > ... > Text n ==", where i,..,n is the integer id of the text. 
+
+# Triples (head:type, relation, tail:type):
+("Western Australia":LOC, "contains administrative territorial entity", "Shire of Mundaring":LOC)
+("Western Australia":LOC, "contains administrative territorial entity", "Shire of Northam":LOC)
+("Shire of Mundaring":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Perth":LOC, "capital of", "Western Australia":LOC)
+("Perth":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Great Southern Highway":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Metropolitan Region Scheme":MISC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Perth Airport":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Great Eastern Highway":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Northam":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Shire of Northam":LOC, "located in the administrative territorial entity", "Western Australia":LOC)
+("Western Australia":LOC, "contains administrative territorial entity", "Northam":LOC)
+
+
+# Text 1:
+Located in Western Australia, the Shire of Mundaring and the Shire of Northam both fall under the larger administrative territory of Western Australia. While Perth serves as the capital of Western Australia and can be found within its borders, other notable features of the region include major highways like the Great Southern Highway and the Metropolitan Region Scheme. The nearby towns of Northam and Perth Airport are also situated within Western Australia's boundaries.
+# Text 2:
+Located in Western Australia, the Shire of Mundaring and the Shire of Northam are both administrative territories that fall under the larger jurisdiction of Western Australia. While Perth serves as the capital city of Western Australia and is itself situated within the state's boundaries, it does not encompass either of these two municipalities. In fact, both the Shire of Mundaring and the Shire of Northam can be found within the Metropolitan Region Scheme, which is a planning tool employed by Western Australia's government. Meanwhile, major roadways like the Great Southern Highway and Great Eastern Highway cut through Western Australia, passing through various towns and cities including Northam. Additionally, travelers looking to fly into the area can do so via Perth Airport, also located in Western Australia.
+# Text 3:
+Located in Western Australia, the Shire of Mundaring and Shire of Northam are both administrative territorial entities. While the former is situated within the larger administrative territory of Western Australia, the latter is also contained within this state. Perth, the capital of Western Australia, is itself located within this administrative territory. Additionally, both the Great Southern Highway and Perth Airport can be found within the boundaries of Western Australia. The Metropolitan Region Scheme is yet another feature that falls under the jurisdiction of this administrative territory. Another significant roadway, the Great Eastern Highway, is also located within Western Australia. Finally, the town of Northam is yet another locale that is encompassed by Western Australia's administrative borders.

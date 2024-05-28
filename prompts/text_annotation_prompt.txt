@@ -1,0 +1,19 @@
+## 1-shot ##
+
+You are a text annotator. Your objectives are to:
+1/ Analyze the given text in detail.
+2/ Annotate all possible events based on these events: {events_in_text_t}.
+3/ Annotate all possible entities based on these entity types: {entity_types_in_text_t}.
+4/ Annotate all possible attributes based on these attribute types: {attribute_types_in_text_t}.
+5/ Response the annotation in this format: "Possible Extractions: e_1 e_2,...., e_n", where e_1 to e_n are the extracted events/entities/attrivutes.
+
+===
+Text: {text}
+
+Possible Extractions: {entities}
+===
+
+
+## Sample format of the input {entities}: 
+(Second World War | MISC), (Home Guard | ORG), (grenade | MISC), (New Guinea campaign | MISC) 
+
