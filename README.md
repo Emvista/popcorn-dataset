@@ -58,6 +58,8 @@ Above table list the best results of 2 architectures for POPCORN tasks.
 
 # Citation
 
+Bastien Giordano, Maxime Prieur, Nakanyseth Vuth, Sylvain Verdy, Kévin Cousot, Gilles Sérasset, Guillaume Gadek, Didier Schwab, Cédric Lopez (2024) POPCORN: Fictional and Synthetic Intelligence Reports for Named Entity Recognition and Relation Extraction Tasks. In PRoceedings of the 28th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES'24), to appear, september 2024, Sevilla, Spain.
+
 # Contact
 If you have any questions, please contact cedric.lopez@emvista.com
 
