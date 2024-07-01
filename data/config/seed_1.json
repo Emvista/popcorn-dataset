@@ -1,0 +1,50 @@
+{
+    "batch_size": 1,
+    "encoder_dropout": 0.1,
+    "encoder_name": "camembert-base",
+    "gpus": "1",
+    "gradient_norm": 10,
+    "learning_rate": 0.0001,
+    "max_epochs": 50,
+    "max_seq_len": 510,
+    "max_span_len": 17,
+    "model_name": "TEACHER_1",
+    "monitored": "avg_val_f1",
+    "monitored_mode": "max",
+    "output_len": 93,
+    "nb_frozen_layers": 8,
+    "NLP": {
+        "bilstm_hidden_size": 768,
+        "feature_size": 768,
+        "ffnn_dropout": 0.2,
+        "ffnn_dims": [
+            1536,
+            768,
+            384
+        ],
+        "nb_linear_layers": 1,
+        "linear_layers_size": 150,
+        "max_seq_len": 510
+    },
+    "path_test_json": "./data/POPCORN_PAPER/public_test.json",
+    "path_test_set": "./data/POPCORN_PAPER/test_nlp.pickle",
+    "path_train_set": "./data/POPCORN_PAPER/train_nlp.pickle",
+    "path_output": "./data/POPCORN_PAPER/output/",
+    "path_dir_checkpoint": "./data/POPCORN_PAPER/models/TEACHER",
+    "patience_plateau": 4,
+    "patience_stopping": 10,
+    "PRUNER": {
+        "bilstm_dropout": 0.1,
+        "bilstm_hidden_size": 768,
+        "bilstm_nb_layers": 3,
+        "feature_size": 768,
+        "ffnn_dims": [
+            1536,
+            768,
+            384
+        ],
+        "ffnn_dropout": 0.2,
+        "linear_layers_size": 150
+    },
+    "seed": 9465
+}
